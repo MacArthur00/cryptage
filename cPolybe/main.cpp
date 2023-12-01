@@ -104,35 +104,3 @@ int main() {
 
     return 0;
 }
-
-
-/********************************************************************************************************************************************
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
-const int SIZE = 5;
-
-// Fonction pour trouver la position d'une lettre dans le tableau de Polybe
-
-
-int main() {
-    // Utiliser le tableau de Polybe créé précédemment
-    vector<vector<char>> polybeTable(SIZE, vector<char>(SIZE, 0));
-    string keyword;
-
-    // Demander à l'utilisateur d'entrer le mot clé
-    cout << "Entrez le mot clé : ";
-    cin >> keyword;
-
-    remplirTableau(polybeTable, keyword);
-
-    // Afficher le tableau de Polybe résultant
-    cout << "Tableau de Polybe :" << endl;
-    afficherPolybe(polybeTable);
-
-
-    return 0;
-}
-*/
